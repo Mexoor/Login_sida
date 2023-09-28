@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Frylle Brukshundklubb</h1>
+        <img src="./img/Hundar.jpg" alt="">
+        <h2 class="header2">Om Oss</h2>
+        <div class="aboutUs">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus amet! Officia suscipit dignissimos, quo aliquam ad deleniti explicabo, quaerat maiores quos amet ipsa doloribus! Obcaecati quaerat nulla enim quidem.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus amet! Officia suscipit dignissimos, quo aliquam ad deleniti explicabo, quaerat maiores quos amet ipsa doloribus! Obcaecati quaerat nulla enim quidem.
+            </p>
+        </div>
+        <div class="ruleList">
+            <ul>
+                <li>Dont Bully Dogs</li>
+                <li>Dont overfeed them</li>
+                <li>Don't underfeed them</li>
+                <li>Give them all the love</li>
+                <li>Be nice to eachother</li>
+            </ul>
+        </div>
+
+        <div class="wrapper">
+            <div class="form-box">
+                <form action="#" id="loginForm">
+                    <h2>Log in</h2>
+                    <div class="input-box">
+                        <input type="text" name="name">
+                        <label>Namn</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password">
+                        <label>Lösenord</label>
+                    </div>
+                    <button onclick="logIn()">Logga in</button>
+                    
+                </form>
+            </div>
+            <form action="#" id="successLogIn">
+                <div >
+                    <h2>välkommen, du är nu inloggad</h2>
+                    <button onclick="returnToLoginForm()">Logga ut</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+   <script src="index.js"></script>
+</body>
+</html>

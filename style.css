@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(#4bcdd1,#6aa3da, #5289bd,#4bcdd1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    min-height: 100vh;
+}
+
+.header2{
+    padding-top: 2rem;
+}
+
+p{
+    width: 70vh;
+    font-size: larger;
+}
+
+.ruleList{
+    font-size: larger;
+}
+
+.wrapper{
+    width: 400px;
+    height: 440px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(20px);
+    background: transparent;
+}
+
+.form-box{
+    font-size: 2em;
+    color: #162938;
+}
+
+#successLogIn{
+    display: none;
+    position: absolute;
+}
