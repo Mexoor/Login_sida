@@ -1,13 +1,10 @@
 
 let logInForm = document.getElementById("loginForm");
 let successMessage = document.getElementById("successLogIn");
-
-
+const namn = "Bella";
+const lösenord = "qwe123";
 
 function logIn(){
-    const namn = "Bella";
-    const lösenord = "qwe123";
-       
     let username = logInForm.name.value;
     let userPassword = logInForm.password.value;
 
@@ -30,10 +27,10 @@ function returnToLoginForm(){
 }
 
 function checkLogin(){
-    let user = localStorage.getItem('username');
-    let pass = localStorage.getItem('password');    
+    let username = localStorage.getItem('username');
+    let password = localStorage.getItem('password');    
 
-    if(user =="Bella"){
+    if(username == namn && password == lösenord){
         logInForm.style.visibility = 'hidden';
         successMessage.style.display = 'flex';
     }
