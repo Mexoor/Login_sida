@@ -46,6 +46,10 @@ p{
     color: #162938;
 }
 
+#loginForm{
+    visibility: visible;
+}
+
 #successLogIn{
     display: none;
     position: absolute;
