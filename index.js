@@ -1,12 +1,10 @@
 
 let logInForm = document.getElementById("loginForm");
-    let successMessage = document.getElementById("successLogIn");
+let successMessage = document.getElementById("successLogIn");
 
 
 
 function logIn(){
-   
-   
     const namn = "Bella";
     const lösenord = "qwe123";
        
@@ -39,7 +37,6 @@ function checkLogin(){
         logInForm.style.visibility = 'hidden';
         successMessage.style.display = 'flex';
     }
-    
 }
 
 window.onload = checkLogin;
